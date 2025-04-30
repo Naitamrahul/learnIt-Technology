@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 
 const testimonials = [
   {
-    name: "Aarav Shah",
+    name: "Atharv Tijare",
     title: "Full Stack Developer",
     feedback: "LearnIT was a game-changer for my career!",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
@@ -15,7 +15,7 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
-    name: "Rohit Verma",
+    name: "Pushmod Metange",
     title: "Software Engineer",
     feedback: "Great instructors, real-world projects. Loved it!",
     image: "https://randomuser.me/api/portraits/men/11.jpg",

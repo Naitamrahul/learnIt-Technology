@@ -12,11 +12,11 @@ const Project = () => {
               <p>Projects Completed</p>
             </div>
             <div className="col-md-3 mb-4">
-              <h3 className="display-5 fw-bold">1500+</h3>
+              <h3 className="display-5 fw-bold">3500+</h3>
               <p>Students Trained</p>
             </div>
             <div className="col-md-3 mb-4">
-              <h3 className="display-5 fw-bold">30+</h3>
+              <h3 className="display-5 fw-bold">10+</h3>
               <p>Corporate Clients</p>
             </div>
             <div className="col-md-3 mb-4">

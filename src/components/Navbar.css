@@ -1,0 +1,87 @@
+.main-navbar {
+  padding: 10px 0;
+  background: transparent;
+  transition: all 0.4s ease;
+  z-index: 999;
+  background-color: white;
+}
+
+.sticky-header {
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: slideDown 0.4s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.navbar-nav .nav-link {
+  color: brown !important;
+  font-weight: bold;
+  margin-left: 15px;
+  transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d1ff !important;
+}
+
+.login-btn {
+  background-color: #00bcd4 !important;
+  color: white !important;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-left: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #3f2d2d !important;
+  transform: scale(1.05);
+}
+
+/* 📱 Mobile Menu Slide */
+@media (max-width: 991px) {
+  .mobile-slide {
+    background: #0d1b2a;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    padding: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-collapse.show {
+    transform: translateX(0%);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+    color: white !important;
+    font-size: 1.2rem;
+  }
+
+  .mobile-toggle {
+    border: none;
+  }
+
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+}

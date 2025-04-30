@@ -11,10 +11,10 @@ const Footer = () => {
             <h5 className="mb-3">RN Technology</h5>
             <p>Your trusted platform to learn tech and grow your career.</p>
             <div className="d-flex gap-3">
-              <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
-              <a href="#" className="text-white"><i className="bi bi-instagram"></i></a>
-              <a href="#" className="text-white"><i className="bi bi-linkedin"></i></a>
-              <a href="#" className="text-white"><i className="bi bi-twitter-x"></i></a>
+              <a href="www.github.com" className="text-white"><i className="bi bi-facebook"></i></a>
+              <a href="www.instagram.com" className="text-white"><i className="bi bi-instagram"></i></a>
+              <a href="www.linkedin.com" className="text-white"><i className="bi bi-linkedin"></i></a>
+              <a href="www.twitter.com" className="text-white"><i className="bi bi-twitter-x"></i></a>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="col-md-3 mb-4">
             <h5 className="mb-3">Contact</h5>
-            <p><i className="bi bi-geo-alt-fill me-2"></i>123 Tech Street, Nagpur</p>
+            <p><i className="bi bi-geo-alt-fill me-2"></i>plot no. 63, Manewada road, Nagpur</p>
             <p><i className="bi bi-telephone-fill me-2"></i>+91 9923756226</p>
             <p><i className="bi bi-envelope-fill me-2"></i>support@rntechnology.com</p>
           </div>
@@ -42,7 +42,7 @@ const Footer = () => {
             <h5 className="mb-3">Subscribe</h5>
             <form>
               <div className="input-group">
-                <input type="email" className="form-control" placeholder="Your email" />
+                <input type="email" className="form-control" placeholder="rahulnaitam1992@gmail.com" />
                 <button className="btn btn-primary" type="submit">
                   <i className="bi bi-send"></i>
                 </button>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <hr className="border-secondary" />
-        <p className="text-center mb-0">&copy; 2025 IT Course Hub. All rights reserved.</p>
+        <p className="text-center mb-0">&copy; 2025 RN technology Pvt Ltd. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -1,0 +1,20 @@
+.aboutus-page h1,
+.aboutus-page h2,
+.aboutus-page h3 {
+  color: #2a2a72;
+  font-weight: 700;
+}
+
+.aboutus-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.director-section img {
+  border: 4px solid #e0e0e0;
+}
+
+.team-section .card-title {
+  font-weight: bold;
+  color: #2a2a72;
+}

@@ -1,4 +1,4 @@
-import ClientLogo from "../components/ClientLogo";
+
 import Gallary from "../components/Gallary";
 import HeroSection from "../components/HeroSection";
 import Project from "../components/Project";
@@ -14,7 +14,6 @@ function Home() {
       <Project />
       <Gallary />
       <Testimonial />
-      <ClientLogo />
 
     </>
   );

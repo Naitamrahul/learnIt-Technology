@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Courses from './pages/Courses';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import AdminLogin from "./admin/AdminLogin";
 import Dashboard from "./admin/Dashboard";
 import ProtectedRoute from "./auth/ProtectedRoute";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/testimonials" element={<Testimonial />} />
           <Route path="/submit-testimonial" element={<SubmitTestimonial />} />
           <Route path="/contact" element={<Contact />} />
